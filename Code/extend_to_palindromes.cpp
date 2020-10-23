@@ -25,7 +25,6 @@ int main() {
 				}
 			}
 		}
-		cout << matched << endl;
 
 		cout << s;
 		for (auto r_it = s.rbegin() + matched; r_it != s.rend(); r_it++) {
