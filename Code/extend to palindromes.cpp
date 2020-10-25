@@ -14,14 +14,14 @@ int main() {
 		int matched = 0;
 		for (auto it = s.begin(); it != s.end(); it++) {
 			for (auto r_it = s.rbegin(); r_it != s.rend(); r_it++) {
-				if (*it == *r_it) { 
+				if (*it == *r_it) {
 					matched += 1;
 					if (it + 1 != s.end()) { it++; }
 					else { break; }
 				}
-				else { 
+				else {
 					matched = 0;
-					break; 
+					break;
 				}
 			}
 		}
